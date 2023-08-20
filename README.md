@@ -39,35 +39,30 @@ This repository provides a set of project templates for the STM32F411 microcontr
 
 ### Clear Template
 - **Description**: A minimalistic template offering a clean slate for your projects.
-- **Usage**: Ideal for projects where you want to build everything from scratch without any pre-configured settings.
-
-### ADC (Analog-to-Digital Converter)
-- **Description**: This template configures and demonstrates the usage of the STM32F411's Analog-to-Digital Converter (ADC).
-- **Usage**: Helpful for projects involving analog signal sampling and conversion to digital data.
-
-### ADC DMA (Direct Memory Access)
-- **Description**: A variant of the ADC template that utilizes Direct Memory Access (DMA) for efficient data transfer from the ADC to memory.
-- **Usage**: Suitable for high-speed, continuous ADC data acquisition tasks.
 
 ### GPIO Output (General-Purpose Input/Output - Output)
 - **Description**: Configures GPIO pins as digital outputs and provides an example.
-- **Usage**: Useful for projects where you need to control the logic levels on specific pins to interact with external devices.
+- **Resources**: [STM32 Register Level Programming and GPIO](https://hackmd.io/@hrbenitez/158_2s2223_GPIO) - Very detailed tutorial prepared by Herlan Benitez
 
 ### GPIO Input (General-Purpose Input/Output - Input)
-- **Description**: A variation of the GPIO template, this configures GPIO pins as inputs and demonstrates how to read their logic states.
-- **Usage**: Valuable for tasks involving external event detection or sensor input handling.
+- **Description**: Configures GPIO pins as digital input with optional external interrupt.
+- **Resources**: [STM32 Register Level Programming and GPIO](https://hackmd.io/@hrbenitez/158_2s2223_GPIO) - Very detailed tutorial prepared by Herlan Benitez
+
+### ADC (Analog-to-Digital Converter)
+- **Description**: This template configures and demonstrates the very basic usage of the STM32F411's Analog-to-Digital Converter (ADC).
+
+### ADC DMA (Direct Memory Access)
+- **Description**: A variant of the ADC template that utilizes Direct Memory Access (DMA) for efficient data transfer from the ADC to memory.
 
 ### TIM Time-Base (Timer - Time-Base)
-- **Description**: Configures a timer as a time-base signal source and offers a basic example.
-- **Usage**: Suitable for projects requiring precise timing intervals or periodic interrupts.
+- **Description**: Configures a timer as a time-base signal source and offers a basic example. Suitable for projects requiring precise timing intervals or periodic interrupts.
+- **Resources**: [STM32 Interrupts and Timers](https://hackmd.io/@hrbenitez/158_2s2223_Int_Tim) - Very detailed tutorial prepared by Herlan Benitez
 
 ### TIM Output Mode (Timer - Output Mode)
-- **Description**: An extension of the timer template, it configures the timer for generating output signals like PWM (Pulse Width Modulation).
-- **Usage**: Useful for motor control, LED brightness modulation, and signal generation.
+- **Description**: An extension of the timer template, it configures the timer for generating output signals like PWM (Pulse Width Modulation). Useful for motor control, LED brightness modulation, and signal generation.
 
 ### TIM Input Mode (Timer - Input Mode)
-- **Description**: Configures the timer as an input and demonstrates measuring the duration or frequency of an external signal.
-- **Usage**: Valuable for applications involving pulse width measurement or event counting.
+- **Description**: Configures the timer as an input and demonstrates measuring the duration or frequency of an external signal. Valuable for applications involving pulse width measurement or event counting.
 
 These templates aim to expedite your STM32F411 development by providing a structured foundation for various use cases. Dive into the template that aligns with your project requirements and build upon it for your specific needs.
 
