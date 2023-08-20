@@ -42,11 +42,11 @@ This repository provides a set of project templates for the STM32F411 microcontr
 
 ### GPIO Output (General-Purpose Input/Output - Output)
 - **Description**: Configures GPIO pins as digital outputs and provides an example.
-- **Resources**: [STM32 Register Level Programming and GPIO](https://hackmd.io/@hrbenitez/158_2s2223_GPIO) - Very detailed tutorial prepared by Herlan Benitez
+- **[STM32 Register Level Programming and GPIO](https://hackmd.io/@hrbenitez/158_2s2223_GPIO)**:  - Very detailed tutorial prepared by Herlan Benitez
 
 ### GPIO Input (General-Purpose Input/Output - Input)
 - **Description**: Configures GPIO pins as digital input with optional external interrupt.
-- **Resources**: [STM32 Register Level Programming and GPIO](https://hackmd.io/@hrbenitez/158_2s2223_GPIO) - Very detailed tutorial prepared by Herlan Benitez
+- **[STM32 Register Level Programming and GPIO](https://hackmd.io/@hrbenitez/158_2s2223_GPIO)**:  - Very detailed tutorial prepared by Herlan Benitez
 
 ### ADC (Analog-to-Digital Converter)
 - **Description**: This template configures and demonstrates the very basic usage of the STM32F411's Analog-to-Digital Converter (ADC).
@@ -56,7 +56,8 @@ This repository provides a set of project templates for the STM32F411 microcontr
 
 ### TIM Time-Base (Timer - Time-Base)
 - **Description**: Configures a timer as a time-base signal source and offers a basic example. Suitable for projects requiring precise timing intervals or periodic interrupts.
-- **Resources**: [STM32 Interrupts and Timers](https://hackmd.io/@hrbenitez/158_2s2223_Int_Tim) - Very detailed tutorial prepared by Herlan Benitez
+- **[General-purpose timer cookbook for STM32 microcontrollers](https://www.st.com/resource/en/application_note/an4776-generalpurpose-timer-cookbook-for-stm32-microcontrollers-stmicroelectronics.pdf)** - ST cookbook for timers, 
+- **[STM32 Interrupts and Timers](https://hackmd.io/@hrbenitez/158_2s2223_Int_Tim)** - Very detailed tutorial prepared by Herlan Benitez, 
 
 ### TIM Output Mode (Timer - Output Mode)
 - **Description**: An extension of the timer template, it configures the timer for generating output signals like PWM (Pulse Width Modulation). Useful for motor control, LED brightness modulation, and signal generation.
