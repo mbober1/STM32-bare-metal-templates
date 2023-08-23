@@ -5,7 +5,7 @@ volatile uint32_t tick;
 
 void SysTick_Handler()
 {
-  tick++;
+  tick = tick + 1;
 }
 
 void SystemInit(void)
