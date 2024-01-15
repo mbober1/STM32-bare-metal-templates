@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "power_on",
+      "command": "JLinkExe -CommandFile .vscode/jlink/power-on.jlink",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "power_off",
+      "command": "JLinkExe -CommandFile .vscode/jlink/power-off.jlink",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "build",
+      "command": "make",
+      "problemMatcher": "$gcc"
+    }
+  ]
+}

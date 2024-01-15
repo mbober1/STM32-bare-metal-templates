@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Jlink",
+        "cwd": "${workspaceFolder}",
+        "executable": "./build/stm32_pro.elf",
+        "request": "launch",
+        "type": "cortex-debug",
+        "runToEntryPoint": "main",
+        "servertype": "jlink",
+        "serverpath": "JLinkGDBServerCLExe",
+        "interface": "swd",
+        "device": "STM32F411CE",
+        "svdFile": "${workspaceRoot}/STM32F411xx.svd",
+        "preLaunchTask": "build"
+      }
+    ]
+  }
